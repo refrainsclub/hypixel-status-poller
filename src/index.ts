@@ -3,7 +3,7 @@
  * It will post updates to Discord when a user's online status changes.
  */
 import { config } from "~/config";
-import { sendMessage as postMessage } from "~/discord";
+import { postMessage } from "~/discord";
 import { getStatus } from "~/hypixel";
 import { Session, User } from "~/types";
 import { users } from "~/users";

@@ -5,7 +5,7 @@ const webhookUrl = process.env.DISCORD_WEBHOOK_URL!!;
  *
  * @param message The message to send to Discord.
  */
-export async function sendMessage(message: string) {
+export async function postMessage(message: string) {
   const res = await fetch(webhookUrl, {
     method: "POST",
     headers: {
