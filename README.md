@@ -1,4 +1,6 @@
-# hypixel-status-poller
+# Hypixel Status Poller
+
+This project polls the Hypixel API for the status of the provided usernames, and sends a message to a Discord webhook when it changes. Use at your own risk.
 
 To install dependencies:
 
